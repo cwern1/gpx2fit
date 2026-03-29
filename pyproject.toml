@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gpx2fit"
+version = "0.1.0"
+description = "Convert GPX files to Garmin FIT format"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "fit-tool",
+    "gpxpy",
+    "geopy",
+]
+
+[project.scripts]
+gpx2fit = "gpx2fit.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gpx2fit"]

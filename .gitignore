@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# uv
+.python-version
+
+# OS
+.DS_Store
+
+# Output
+output/
+
+# Sample data (large files)
+*.gpx
+*.fit
+
+# Claude Code
+CLAUDE.md
+
+# License (TBD)
+LICENSE
+
+# IDE
+.idea/
+.vscode/
