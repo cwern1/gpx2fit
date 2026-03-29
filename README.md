@@ -2,7 +2,7 @@
 
 A command-line tool to convert GPX files to Garmin FIT format.
 
-Preserves GPS coordinates, elevation, timestamps, heart rate, cadence, and speed data. The resulting FIT files are compatible with Garmin Connect, Strava, and other platforms that accept the FIT format.
+Preserves GPS coordinates, elevation, timestamps, heart rate, cadence, and speed data. The resulting FIT files are compatible with Garmin Connect, Strava, [SweatDiary](https://sweatdiary.app/) and other platforms that accept the FIT format.
 
 ## Installation
 
